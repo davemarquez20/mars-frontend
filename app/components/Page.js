@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const Page = (props) => {
   useEffect(() => {
-    document.title = `${props.title} | Complex App`;
+    document.title = `${props.title} | M.A.R.S.`;
     window.scrollTo(0, 0);
   }, [props.title]);
 
